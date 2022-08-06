@@ -34,15 +34,4 @@ public class Usuario {
                 '}';
     }
 
-    public static String assinante(){
-        String mensagem = "";
-        if (getTipoUsuario() == "Premium") {
-            mensagem = "Premium";
-        }
-        if (getTipoUsuario() == "Free") {
-            mensagem = "Free";
-        }
-        return mensagem;
-    }
-
 }
