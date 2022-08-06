@@ -8,7 +8,7 @@ public class Main {
         download.setAssinante(new Usuario("dsf", "Premium"));
 
         try {
-            System.out.println("⇣ Download da música: " + download.getMusica("Dreams") + " iniciando!");
+            System.out.println("⇣ Download da música " + download.getMusica("Dreams") + " iniciando!");
         }
         catch (DownloadBloqueadoException e){
             System.out.println(e);
@@ -19,7 +19,7 @@ public class Main {
         download2.setAssinante(new Usuario("joao", "Free"));
 
         try {
-            System.out.println("⇣ Download da música: " + download2.getMusica("Kids") + " iniciando!");
+            System.out.println("⇣ Download da música " + download2.getMusica("Kids") + " iniciando!");
         }
         catch (DownloadBloqueadoException e){
             System.out.println(e);
@@ -30,7 +30,7 @@ public class Main {
         download3.setAssinante(new Usuario("javanes", "Premium"));
 
         try {
-            System.out.println("⇣ Download da música: " + download3.getMusica("Kashmir") + " iniciando!");
+            System.out.println("⇣ Download da música " + download3.getMusica("Kashmir") + " iniciando!");
         }
         catch (DownloadBloqueadoException e){
             System.out.println(e);
@@ -41,7 +41,7 @@ public class Main {
         download4.setAssinante(new Usuario("malandro", "Free"));
 
         try {
-            System.out.println("⇣ Download da música: " + download3.getMusica("Porcelain") + " iniciando!");
+            System.out.println("⇣ Download da música " + download3.getMusica("Porcelain") + " iniciando!");
         }
         catch (DownloadBloqueadoException e){
             System.out.println(e);
